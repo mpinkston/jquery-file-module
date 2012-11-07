@@ -1,0 +1,30 @@
+{
+    "name": "mpinkston/jquery-file-module",
+    "description": "Zend Framework 2 Module for blueimp's jQuery-File-Upload",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "module",
+        "zf2",
+        "jQuery",
+        "file",
+        "upload"
+    ],
+    "homepage": "http://www.vekis.com/",
+    "authors": [
+        {
+            "name": "Matt Pinkston",
+            "email": "matt@pinkston.org"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "minimum-stability": "alpha",
+    "autoload": {
+        "psr-0": {
+            "JqueryFileModule\\": "src/",
+            "JqueryFileModuleTest\\": "tests/"
+        }
+    }
+}
